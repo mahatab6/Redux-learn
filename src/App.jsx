@@ -5,11 +5,13 @@ import './App.css'
 import Counter from './features/counter/Counter'
 import Post from './features/posts/post'
 import PostForm from './features/posts/PostForm'
+import Posts from './features/dataFetching/Posts'
 
 function App() {
   return (
     <>
       <div>
+        <Posts/>
         <h1 className=' text-center text-2xl font-bold'>Counter app </h1>
         <Counter/>
         <PostForm/>
